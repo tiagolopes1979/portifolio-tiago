@@ -10,11 +10,11 @@
     <header>
   <div class="container header-inner">
     <div class="logo">Tiago Lopes</div>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <nav aria-label="Navegação principal">
+  <a href="#sobre">Sobre</a>
+  <a href="#projetos">Projetos</a>
+  <a href="#contato">Contato</a>
+</nav>
   </div>
 </header>
 
@@ -42,16 +42,32 @@ de projetos práticos e desafios reais.
 
    <section id="projetos" class="card">
   <h2>Projetos</h2>
-  <p>
-    • Portfólio pessoal <br />
-    • Landing page de vinhos <br /><br />
 
-    <a href="https://tiagolopes1979.github.io/devwill/"
-   target="_blank"
-   rel="noopener noreferrer">
-   Ver projeto online
-</a>
-  </p>
+  <ul class="projects-list">
+    <li>
+      <strong>Devwill</strong> — Landing page (HTML/CSS)
+      <div class="project-links">
+        <a class="btn small" href="https://tiagolopes1979.github.io/devwill/" target="_blank" rel="noopener noreferrer">
+          Ver projeto
+        </a>
+        <a class="btn outline small" href="https://github.com/tiagolopes1979/devwill" target="_blank" rel="noopener noreferrer">
+          Ver código
+        </a>
+      </div>
+    </li>
+
+    <li>
+      <strong>Portfólio</strong> — Página pessoal (HTML/CSS)
+      <div class="project-links">
+        <a class="btn small" href="https://tiagolopes1979.github.io/portifolio-tiago/" target="_blank" rel="noopener noreferrer">
+          Ver projeto
+        </a>
+        <a class="btn outline small" href="https://github.com/tiagolopes1979/portifolio-tiago" target="_blank" rel="noopener noreferrer">
+          Ver código
+        </a>
+      </div>
+    </li>
+  </ul>
 </section>
 
    <section id="contato" class="card">
@@ -78,7 +94,7 @@ de projetos práticos e desafios reais.
 </main>
 
 <footer>
-  <div class="container">© 2026 • Feito por Tiagolopes</div>
+  <div class="container">© 2026 • Feito por Tiago Lopes</div>
 </footer>
     
 </body>
